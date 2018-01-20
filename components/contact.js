@@ -8,10 +8,10 @@ var Contact = React.createClass({
       <div className={'contactItem'}>
         <img className={'contactImage'} src={this.props.item.src}/>
         <p className={'contactLabel'}>
-          {this.props.contact.firstName}
+          {this.props.item.firstName}
         </p>
         <p className={'contactLabel'}>
-          {this.props.contact.lastName}
+          {this.props.item.lastName}
         </p>
         <a href={'mailto:' + this.props.item.email} className={'contactEmail'}>
             {this.props.item.email}
