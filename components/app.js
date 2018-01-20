@@ -38,8 +38,6 @@ var App = React.createClass({
           React.createElement(Contacts, {items: contacts}, {})
         }
       </div>
-      // React.createElement('div', {className: 'app'},
       )
-    );
   }
 });
